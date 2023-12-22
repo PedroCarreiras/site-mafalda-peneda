@@ -170,6 +170,12 @@ footer {
     gap: 2em;
     background-color: rgb(27, 27, 27);
     color: white;
+    font-size: small;
+}
+
+.footer-text {
+    padding: 0 5em;
+    align-self: center;
 }
 
 #socials {
