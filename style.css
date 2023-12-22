@@ -142,6 +142,24 @@ th, td {
     padding: 1em 2em;
 }
 
+.academic-photos, .sport-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-items: center;
+    justify-content: center;
+}
+
+.academic-photos img {
+    max-height: 300px;
+    max-width: 100dvw;
+}
+
+.sport-photos img {
+    max-height: 200px;
+    max-width: 100dvw;
+}
+
 footer {
     border-top: 1px solid white;
     padding: 2em 0;
@@ -163,6 +181,10 @@ footer {
 
 .highlight {
     color: rgb(204, 170, 235);
+}
+
+.highlight-dark {
+    color: rgb(153, 76, 224);
 }
 
 #unis {
